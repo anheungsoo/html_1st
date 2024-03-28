@@ -1,0 +1,102 @@
+<!DOCTYPE html> <!--해당 페이지의 HTML 버전을 알려주는 선언문-->
+<html lang="en"> <!--HTML 모든 요소는 <html></html> 태그 안에 작성-->
+
+<head> <!--<head></head>안에는 설정 (추가정보, 효과, 디자인 등) 지정-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>자기소개</title> <!-- 브라우저 상단에 표시되는 이름 -->
+</head>
+
+<body> <!--<body></body> 안에는 사용자에게 실제로 보여주고 싶은 부분을 작성 -->
+    <header>
+        <ol>
+            <li><a href="https://search.naver.com/search.naver?sm=tab_hty.top&where=nexearch&ssc=tab.nx.all&query=%EC%95%88%EC%96%91%EC%97%AC%EA%B3%A0&oquery=%EA%B7%BC%EB%AA%85%EA%B3%A0%EB%93%B1%ED%95%99%EA%B5%90&tqi=ilZRRdqVN8ossAyCmvlssssstuw-289905">사는곳</a></li>
+            <li><a href="https://search.naver.com/search.naver?sm=tab_hty.top&where=nexearch&ssc=tab.nx.all&query=%EA%B7%BC%EB%AA%85%EA%B3%A0%EB%93%B1%ED%95%99%EA%B5%90&oquery=%EC%95%88%EC%96%91%EC%97%AC%EA%B3%A0&tqi=ilZR6spzL8Vss5etHrhssssssZR-355903">출신고등학교</a></li>
+            <li>mbti : intj</li>
+            <li>인스타 : pain_eq_gain</li>
+            <li>취미 : 독서, 애니보기</li>
+
+        </ol>
+        <main>
+            <form>
+                <fieldset>
+                    <legend>정보입력</legend>
+                    <table border="1">
+                        
+                        <tr>
+                            <th><label for="id"><b>ID</b></label></th>
+                            <td colspan="2"><input type="text" id="id"></td>
+                        </tr>
+                        <tr>
+                            <th><label for="password"><b>password</b></label></th>
+                            <td colspan="2"> <input type="password" id="password"></td> <!-- col은 열(세로) -->
+                        </tr>
+                        <tr>
+                            <th>성별</th>
+                            <td>
+                                <label for="woman">여자</label>
+                                <input type="radio" id="woman" name="gender" value="w">
+                            </td>
+                            <td><label for="man">남자</label>
+                                <input type="radio" id="man" name="gender" value="m">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <th>복습유무</th>
+                            <td>
+                                <select>
+                                    <option>복습완료</option> <!-- 옵션 태그 -->
+                                </select>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <th rowspan="2">자신있는 과목</th> <!-- row는 행(가세로) -->
+                            <td>
+                                <input type="checkbox" name="korean" id="korean">
+                                <label for="korean">국어</label>
+                            </td>
+                            <td>
+                                <input type="checkbox" name="math" id="math">
+                                <label for="math">수학</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="checkbox" name="english" id="english">
+                                <label for="english">영어</label>
+                            </td>
+                            <td>
+                                <input type="checkbox" name="science" id="science">
+                                <label for="science">과학</label><br>
+                            </td>
+                        </tr>
+                        <td>복습완료</td>
+                        <td><input type="reset" valu="초기화"></td>
+                        <td><input type="submit" value="제출"></td>
+                    </tr>
+                    </table>
+                </fieldset>
+            </form>
+            <footer>
+                <img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNDAyMDlfMzcg%2FMDAxNzA3NDUwNDE1NjI3.zuFSkI6_z16_uxGCVQ-9zuPEKEjCTCDOwRgRzXXGZtsg.o_467LfviAgWpV2IKrIyxiAGzk__OBoR2GrmY43qlZQg.JPEG.jiwon01357%2FIMG_1024.jpg&type=sc960_832" width="300" height="300" alt="귀멸의칼날">
+            <img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTA2MjlfOTUg%2FMDAxNjI0OTY3ODY0Mzkx.IpT_rahPb6E_F9U912OcTZF0usMjKfBd24zFxyWFbNsg.3PTudFh6myYggtCUIlDPzEPkube2cvUdFzPfx04t2iEg.JPEG.karpmy91%2Ffushiita_daily_on_Twitter.jpeg&type=sc960_832" width="300" height="300" alt="주술회전">
+            <p>&copy; 멋쟁이사자처럼 12기</p>
+            <div>
+                <a href="mailto:dksgmdtn05@naver.com">이메일</a>
+                <a href="mailto:dksgmdtn05@naver.com">깃허브</a>
+            </div>
+
+            <a href = "#top"> 상단으로</a>
+
+
+            </footer>
+        </main>
+
+
+    </header>
+
+</body>
+
+</html>
